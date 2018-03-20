@@ -15,7 +15,13 @@ hello git
 			就是git add file 添加到的区域
 		当前分支
 			git commit '' 提交到当前分支
-	git diff HEAD -- file
+	git diff HEAD -- file 具体修改的信息
+撤销修改
+	
+	git checkout -- file 返回至上次commit的状态     针对于工作区的修改错误
+	git reset HEAD file 把暂存区的撤销掉重新回退到工作区 把错误信息添加到缓存区
+	
+	
 		
 	
 
