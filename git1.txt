@@ -1,2 +1,4 @@
 hello git
-穿越时空 添加一条数据
+穿越时空 修改一条数据
+git status 查看是否修改
+git diff file1 如何修改的
