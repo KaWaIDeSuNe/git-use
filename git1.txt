@@ -15,6 +15,7 @@ hello git
 			就是git add file 添加到的区域
 		当前分支
 			git commit '' 提交到当前分支
+	git diff HEAD -- file
 		
 	
 
