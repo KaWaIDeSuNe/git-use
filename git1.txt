@@ -5,4 +5,16 @@ hello git
 	git add file1
 	git commit -m "提交的信息"
 版本回退	
+	git reset --hard HEAD^  回退到上个版本
+	cat file1
+	git reset --hard sdaaf  只有通过commit ID 才能回到未来
+工作区和暂存区
+	工作区就是当前文件夹
+	版本库 是.git 它里面包括暂存区和分支
+		暂存区
+			就是git add file 添加到的区域
+		当前分支
+			git commit '' 提交到当前分支
+		
+	
 
