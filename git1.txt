@@ -30,6 +30,10 @@ hello git
 	
 	之后
 	git push origin master
+
+从远程仓库克隆文件
+	git clone xxx
+	cd file 
 	
 		
 	
