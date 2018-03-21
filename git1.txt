@@ -51,5 +51,5 @@ hello git
 	
 	git merge dev           把dev的分支合并到 master
 		
-	
+这是当前主分支	
 
