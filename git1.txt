@@ -20,7 +20,16 @@ hello git
 	
 	git checkout -- file 返回至上次commit的状态     针对于工作区的修改错误
 	git reset HEAD file 把暂存区的撤销掉重新回退到工作区 把错误信息添加到缓存区
+删除文件
+	git rm file 
+	git commit -m "xxxx"
+添加到远程仓库
+	第一次
+	git remote add origin xxxx
+	git push -u origin master
 	
+	之后
+	git push origin master
 	
 		
 	
