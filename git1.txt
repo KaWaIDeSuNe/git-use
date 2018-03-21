@@ -34,7 +34,15 @@ hello git
 从远程仓库克隆文件
 	git clone xxx
 	cd file 
+创建并合并分支
+	git checkout -b dev   创建并切换分支，相当于下面两条命令
 	
+	git branch dev
+	git checkout dev
+	
+	git branch 查看当前分支
+	
+	dev分支添加	
 		
 	
 
